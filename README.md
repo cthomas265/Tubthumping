@@ -7,3 +7,6 @@ Personal portfolio uniquely named after a song that teaches you to never let thi
 -When i resize the screen, images adjust.
 
 file:///C:/Users/cmtho/Desktop/Solved/Tubthumping/index.html#contact-me
+
+![image](https://user-images.githubusercontent.com/98835210/158069865-e78cef1c-4e51-4b0d-8afd-55d1608ebbf1.png)
+
