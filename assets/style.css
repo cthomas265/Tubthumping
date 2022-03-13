@@ -16,7 +16,7 @@ body {
 
 
 header {
-    padding: 20px 35px;
+    padding: 15px 35px;
     background-color: rgba(162, 148, 168, 0.534);
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header {
 
 h1 {
     color: black;
-    font-size:35px;
+    font-size:45px;
     padding: 5px;
     font-weight: lighter;
     text-decoration: none;
@@ -83,7 +83,7 @@ header nav ul li :hover {
 }
 
 .about-text img {
-    height: 300px;
+    height: 375px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -115,7 +115,7 @@ header nav ul li :hover {
 p {
     display: flex;
     flex-wrap: wrap;
-    font-size: 2vw;
+    font-size: 30px;
     margin: auto;
     padding: 30px;
     }
@@ -135,17 +135,19 @@ p {
     padding: 20px 20px 0 50px;
 }
 
+
 article {
     border: 10px solid black;
     margin: 10px;
 }
+
+
 article div {
     position: absolute;
     background-color: rgba(255, 186, 8);
     font-size: 35px;
     border: 5 solid black;
     border-radius: 0 15px;
-    padding: ;
 }
 
 
@@ -203,8 +205,20 @@ footer {
   
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
-    .horiseon {
 
+    .about-text {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .about-text img {
+        width: 300px;
+        height: auto;
+    }
+
+    .horiseon {
+        width: 300px;
+        height: auto;
     }
 
     .contact div{
